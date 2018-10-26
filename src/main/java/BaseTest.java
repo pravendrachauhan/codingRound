@@ -16,6 +16,7 @@ public class BaseTest {
 		Functions.setDriverPath();
 		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		
 		new BaseUI(driver);
 		driver.get(Configs.URL);
 		Functions.waitFor(2000);
