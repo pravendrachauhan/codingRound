@@ -8,7 +8,6 @@ public class SignInUI extends BaseUI{
 	
 	public SignInUI(WebDriver driver) {
 		super(driver);
-		// TODO Auto-generated constructor stub
 	}
 
 	@FindBy(linkText = "Your trips")
